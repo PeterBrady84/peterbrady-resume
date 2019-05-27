@@ -1,0 +1,343 @@
+body {
+    margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.vert-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #ffffff;
+    background: rgba(240, 240, 240, 0.8);
+}
+
+.vert-text h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+img.resize {
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline > .container > h1 {
+    font-size: 130px;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.headline > .container > h2 {
+    font-size: 77px;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 20px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 20px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+.parallax {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25em;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.parallax-one {
+    background-image: url("../images/parallax/about.png");
+}
+
+.parallax-two {
+    background-image: url("../images/parallax/education.png");
+}
+
+.parallax-three {
+    background-image: url("../images/parallax/experience.png");
+}
+
+.parallax-four {
+    background-image: url("../images/parallax/projects.png");
+}
+
+.parallax-five {
+    background-image: url("../images/parallax/skills.png");
+}
+
+.parallax-six {
+    background-image: url("../images/parallax/achievements.png");
+}
+
+.parallax-seven {
+    background-image: url("../images/parallax/references.png");
+}
+
+.parallax-eight {
+    background-image: url("../images/parallax/download_cv.png");
+}
+
+.parallax-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3em;
+    letter-spacing: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 10;
+    opacity: .8;
+}
+
+a.list-group-item.clickable:hover {
+    background-color: #FCF881;
+    color: black;
+    border-color: greenyellow;
+    transform: scale(1.1);
+    margin-left: 50px;
+}
+
+.modal-dialog {
+    padding-top: 5%;
+}
+
+.logoImg:hover {
+    transform: scale(1.1);
+}
+
+.imgContainer {
+    float: left;
+}
+
+img.clickable:hover {
+    transform: scale(1.1);
+}
+
+.carousel-indicators li {
+    background: #ccc;
+}
+
+.carousel-indicators .active {
+    background: #666;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    min-height: 350px !important;
+    max-height: 500px !important;
+}
+
+.clickable {
+    cursor: pointer
+}
+
+.disable-me {
+    pointer-events: none;
+}
+
+.btn.btn-primary {
+    background-color: forestgreen;
+    border-color: gainsboro;
+}
+
+.btn.btn-primary:hover {
+    background-color: gainsboro;
+    color: black;
+    border-color: forestgreen;
+    transform: scale(1.1);
+}
+
+.panel-heading:hover {
+    background-color: gainsboro;
+    color: black;
+    border-color: #428bca;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+
+    .headline > .container > h1 {
+        font-size: 140px;
+    }
+
+    .headline > .container > h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .headline > .container > h1 {
+        font-size: 105px;
+    }
+
+    .headline > .container > h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 668px) {
+
+    .headline > .container > h1 {
+        font-size: 70px;
+    }
+
+    .headline > .container > h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline > .container > h1 {
+        font-size: 60px;
+    }
+
+    .headline > .container > h2 {
+        font-size: 30px;
+    }
+
+    .parallax-text {
+        font-size: 0.2em;
+        letter-spacing: 1px;
+        font-weight: bold;
+        z-index: 2;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+
