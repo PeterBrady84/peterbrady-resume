@@ -25,6 +25,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    /*background-image: url("../images/background.png");    OPTIONAL BACKGROUND*/
     background: #ffffff;
     background: rgba(240, 240, 240, 0.8);
 }
