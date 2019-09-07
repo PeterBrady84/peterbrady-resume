@@ -2,7 +2,7 @@
 function calcDate() {
     today = new Date()
     // Start date in current employment
-    past = new Date(2017, 07, 01) // remember this is equivalent to 01 08 2017
+    past = new Date(2019, 01, 01) // remember this is equivalent to 01 02 2017
     var diff = Math.floor(today.getTime() - past.getTime());
     var day = 1000 * 60 * 60 * 24;
 
@@ -36,7 +36,7 @@ function calcDate() {
         message = "(" + years + " years, " + months + " month)"
     }
     else if (years > 1 && months > 1) {
-        message = "(" + years + " years, " + months + " months"
+        message = "(" + years + " years, " + months + " months)"
     }
 
     return message;
