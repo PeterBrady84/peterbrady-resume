@@ -6,7 +6,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112963028-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-112963028-2');
@@ -60,8 +63,10 @@
                     <li><a href="https://github.com/PeterBrady84/" target="_blank">GitHub</a></li>
                     <li><a data-toggle="modal" data-target="#contactModal">Contact</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
     <!-- Full Page Image Header Area -->
@@ -70,8 +75,7 @@
             <div class="container">
                 <img class="featurette-image" src="images/icons/self_portrait.png" alt="Self Portrait">
                 <h1>Peter Brady</h1>
-                <h3>Frontend Developer at <a href="https://www.aspiretechnology.com/" target="_blank">Aspire Technology
-                        Ltd.</a></h3>
+                <h3>Software Developer at <a href="http://www.equisoft.ie/" target="_blank">Equisoft</a></h3>
                 <a href="#about" class="btn btn-primary btn-sm" style="margin-right: 20px">Find Out More</a>
                 <!-- Button trigger contact modal -->
 
@@ -100,31 +104,26 @@
 
             <!-- Personal Details -->
             <div class="featurette" id="details">
-                <img class="featurette-image img-circle img-responsive pull-left" src="images/icons/interests.png"
-                    alt="Interests">
+                <img class="featurette-image img-circle img-responsive pull-left" src="images/icons/interests.png" alt="Interests">
                 <h2 class="featurette-heading">About Me</h2>
 
                 <h3><span class="text-muted">Personal Details</span></h3>
-                <p class="lead">Frontend Software Developer with Aspire Technology. I endeavour to always deliver high quality code,
-                    enjoy new challenges, am experienced in agile, have developing in C++ and developed frontend
-                    applications using HTML5, CSS3, JQuery, Javascript, Bootstrap and Perl.</p>
+                <p class="lead">Software Developer with Equisoft. I endeavour to always deliver high quality code, enjoy new challenges, am experienced in agile, have developing in C++ and developed frontend applications using HTML5, CSS3, JQuery, Javascript, Bootstrap
+                    and Perl.</p>
                 <div class="panel panel-primary">
                     <div class="panel-heading clickable" data-toggle="collapse" href="#collapse-personal">
                         <h3 class="panel-title text-center">Read More About Me</h3>
                     </div>
                     <div id="collapse-personal" class="panel-body collapse">
-                        <p class="lead">Developed numerous programs in college using Java, SQL and C#, as well as 7
-                            months’ work experience with LMI Ericsson as a software engineer intern.</p>
-                        <p class="lead">I also have customer-facing experience, problem solving, task management and
-                            gained valuable experience in a commercial setting during my 7 years employment prior to
-                            commencing college with O’Doherty’s Audio and Video Productions.</p>
-                        <p class="lead">I am looking for a graduate or junior software development position with a view
-                            to utilizing the opportunity to enhance my skills and experience.</p>
+                        <p class="lead">Developed numerous programs in college using Java, SQL and C#, as well as 7 months’ work experience with LMI Ericsson as a software engineer intern.</p>
+                        <p class="lead">I also have customer-facing experience, problem solving, task management and gained valuable experience in a commercial setting during my 7 years employment prior to commencing college with O’Doherty’s Audio and Video Productions.</p>
+                        <p class="lead">I am looking for a graduate or junior software development position with a view to utilizing the opportunity to enhance my skills and experience.</p>
                     </div>
                 </div>
             </div>
 
-        </div> <!-- ABOUT -->
+        </div>
+        <!-- ABOUT -->
 
         <!-- EXPERIENCE -->
         <div id="experience">
@@ -141,55 +140,78 @@
             <h2><span class="text-muted">Relevant Experience</span></h2>
             <hr class="featurette-divider" style="margin: 10px">
 
+            <!-- Equisoft DAC -->
+            <div class="featurette" id="equisoft">
+                <a href="http://www.equisoft.ie/" target="_blank">
+                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/equisoft_logo.png" alt="Equisoft Logo">
+                </a>
+                <div style="display: inline-block; vertical-align:top;">
+                    <h2 class="featurette-heading">Equisoft</h2>
+                    <h3><span class="text-muted">Software Developer</span></h3>
+                    <h3>January 2020 - Present
+                        <script>
+                            document.write(calcDate());
+                        </script>
+                    </h3>
+                    <br />
+                </div>
+                <br class="visible-md visible-sm visible-xs" />
+                <div class="panel panel-primary">
+                    <div class="panel-heading clickable" data-toggle="collapse" href="#collapse-equisoft">
+                        <h3 class="panel-title text-center">Read More About Equisoft</h3>
+                    </div>
+                    <div id="collapse-equisoft" class="panel-body collapse">
+                        <p class="lead">Equisoft was formed in 1991 by Robbie Byrne to concentrate on the development of software systems for the bloodstock market. Their professional staff have a unique mix of software systems and equine expertise and take pride in
+                            their association with the leaders of all sectors of the horse industry worldwide. They currently have 200 client sites in over 16 countries and have built a reputation for quality and service.</p>
+                        <p class="lead" style="padding-left:5em">Main Responsibilities
+                            <br />• Responsible for the delivery of high quality code to the Horse Management System, communicating within a team in an agile environment, to deliver software releases on time.
+                            <br />• Duties included collaborating with managers, gathering requirements, implementation, testing, documenting and the delivery of software at set intervals.
+                            <br />• Other skills obtained were learning Powerbuilder, using Microsoft SQL Server and Sourcesafe.
+                            <br />• Excellent communication skills were required, listening to and understanding the features and requirements.
+                    </div>
+                </div>
+            </div>
+            <!-- /Equisoft DAC -->
+
             <!-- Aspire Technology -->
             <div class="featurette" id="aspire">
                 <a href="https://www.aspiretechnology.com/" target="_blank">
-                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/aspire_logo.png"
-                        alt="Aspire Logo">
+                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/aspire_logo.png" alt="Aspire Logo">
                 </a>
-                <h2 class="featurette-heading">Aspire Technology</h2>
-                <h3><span class="text-muted">Frontend Developer</span></h3>
-                <h3>February 2019 - Present
-                    <script>document.write(calcDate());</script>
-                </h3>
-                <h3><span class="text-muted">Software Engineer</span></h3>
-                <h3>August 2017 - January 2019 (1 year, 5 months)</h3>
-                <br />
+                <div style="display: inline-block; vertical-align:top;">
+                    <h2 class="featurette-heading">Aspire Technology</h2>
+                    <h3><span class="text-muted">Frontend Developer</span></h3>
+                    <h3>February 2019 - September 2019 (8 months)
+                    </h3>
+                    <h3><span class="text-muted">Software Engineer</span></h3>
+                    <h3>August 2017 - January 2019 (1 year, 5 months)</h3>
+                    <br />
+                </div>
                 <br class="visible-md visible-sm visible-xs" />
                 <div class="panel panel-primary">
                     <div class="panel-heading clickable" data-toggle="collapse" href="#collapse-aspire">
                         <h3 class="panel-title text-center">Read More About Aspire Technology</h3>
                     </div>
                     <div id="collapse-aspire" class="panel-body collapse">
-                        <p class="lead">Aspire Technology are an innovative Professional Services and Software
-                            Development company, with a core competence in mobile telecommunications. Their solutions
-                            are delivered to Mobile Network Operators and Vendors, Managed Service Providers and
-                            Technology Partners globally.</p>
+                        <p class="lead">Aspire Technology are an innovative Professional Services and Software Development company, with a core competence in mobile telecommunications. Their solutions are delivered to Mobile Network Operators and Vendors, Managed Service
+                            Providers and Technology Partners globally.</p>
                         <p class="lead" style="padding-left:5em">Main Responsibilities
-                            <br />• Responsible for the delivery of high quality software to Ericsson’s RNC platform,
-                            communicating within a team in an agile environment, to deliver software releases on time.
-                            <br />• Executing test suites on software deliverables and upgrading / adding test suites if
-                            necessary followed by documenting work undertaken and the impact of the changes.
-                            <br />• Duties included collaborating within a team, gathering requirements, implementation,
-                            testing, documenting and the delivery of software at set intervals.
-                            <br />• Other skills obtained were UML Modelling and C++ within Eclipse, advanced usage of
-                            git and gerrit software development tools and working on command line within Linux operating
-                            system.
-                            <br />• Excellent communication skills were required working in a team environment,
-                            listening to and understanding the features and requirements needed by the PLM in Kista,
-                            Sweden, as well as within the team in the local office. Dividing up of work and setting
-                            realistic targets for delivery intervals as well as collaborating with the team for the more
-                            complex issues. Often worked under pressure on customer TR’s resolving issues and crashes
-                            within the RNC. C++ is the core language for the RNC.
+                            <br />• Responsible for the delivery of high quality software to Ericsson’s RNC platform, communicating within a team in an agile environment, to deliver software releases on time.
+                            <br />• Executing test suites on software deliverables and upgrading / adding test suites if necessary followed by documenting work undertaken and the impact of the changes.
+                            <br />• Duties included collaborating within a team, gathering requirements, implementation, testing, documenting and the delivery of software at set intervals.
+                            <br />• Other skills obtained were UML Modelling and C++ within Eclipse, advanced usage of git and gerrit software development tools and working on command line within Linux operating system.
+                            <br />• Excellent communication skills were required working in a team environment, listening to and understanding the features and requirements needed by the PLM in Kista, Sweden, as well as within the team in the local office.
+                            Dividing up of work and setting realistic targets for delivery intervals as well as collaborating with the team for the more complex issues. Often worked under pressure on customer TR’s resolving issues and crashes within the
+                            RNC. C++ is the core language for the RNC.
                     </div>
                 </div>
-            </div> <!-- /Aspire Technology -->
+            </div>
+            <!-- /Aspire Technology -->
 
             <!-- Ericsson -->
             <div class="featurette" id="ericsson">
                 <a href="http://www.ericsson.com" target="_blank">
-                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/ericsson_logo.png"
-                        alt="Ericsson Logo">
+                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/ericsson_logo.png" alt="Ericsson Logo">
                 </a>
                 <h2 class="featurette-heading">LMI Ericsson</h2>
                 <h3><span class="text-muted">Software Engineer Intern</span></h3>
@@ -201,22 +223,17 @@
                         <h3 class="panel-title text-center">Read More About Ericsson</h3>
                     </div>
                     <div id="collapse-ericsson" class="panel-body collapse">
-                        <p class="lead">Ericsson are a multinational networking and telecommunications company
-                            headquartered in Stockholm, Sweden. The company offers services, software and infrastructure
-                            in information and communications technology (ICT) for telecommunications operators. In
-                            2012, Ericsson had a 35% market share in the 2G/3G/4G mobile network infrastructure market.
-                            Their Irish campus is based in Athlone, Co Westmeath.</p>
+                        <p class="lead">Ericsson are a multinational networking and telecommunications company headquartered in Stockholm, Sweden. The company offers services, software and infrastructure in information and communications technology (ICT) for telecommunications
+                            operators. In 2012, Ericsson had a 35% market share in the 2G/3G/4G mobile network infrastructure market. Their Irish campus is based in Athlone, Co Westmeath.</p>
                         <p class="lead" style="padding-left:5em">Main Responsibilities
-                            <br />• Responsible for the development of the BOAT tool, which is a Java, Swing and SQL
-                            based tool used by customer support to track customer service requests.
-                            <br />• Duties included gathering requirements, coding, testing, documenting and the
-                            delivery of software at set intervals.
-                            <br />• Good communication skills were required working in a team environment, listening to
-                            and understanding the features and requirements needed by the customer support team. Often
-                            worked under pressure on challenging features to meet demanding deadlines.</p>
+                            <br />• Responsible for the development of the BOAT tool, which is a Java, Swing and SQL based tool used by customer support to track customer service requests.
+                            <br />• Duties included gathering requirements, coding, testing, documenting and the delivery of software at set intervals.
+                            <br />• Good communication skills were required working in a team environment, listening to and understanding the features and requirements needed by the customer support team. Often worked under pressure on challenging features
+                            to meet demanding deadlines.</p>
                     </div>
                 </div>
-            </div> <!-- /Ericsson -->
+            </div>
+            <!-- /Ericsson -->
 
             <hr class="featurette-divider" style="margin: 10px">
 
@@ -226,8 +243,7 @@
             <!-- Murphys -->
             <div class="featurette" id="murphys">
                 <a href="http://www.murphysbar.ie" target="_blank">
-                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/murphys_logo.png"
-                        alt="Murphys Logo">
+                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/murphys_logo.png" alt="Murphys Logo">
                 </a>
                 <h2 class="featurette-heading">Murphy's Bar & Lounge</h2>
                 <h3><span class="text-muted">Part-Time Shop Attendant / Kitchen Porter</span></h3>
@@ -239,77 +255,62 @@
                     </div>
                     <div id="collapse-murphys" class="panel-body collapse">
                         <p class="lead">
-                            Murphy’s bar is a family run pub located on Blessingtons Main Street. Located on the N81
-                            route, Murphy’s provides food and drink to a busy passing trade aswell local residents of
-                            Blessington. Adjacent to the pub is Wonka's sweet shop which sells a wide range of old
-                            fashioned sweets as well as balloons and party decorations.</p>
+                            Murphy’s bar is a family run pub located on Blessingtons Main Street. Located on the N81 route, Murphy’s provides food and drink to a busy passing trade aswell local residents of Blessington. Adjacent to the pub is Wonka's sweet shop which sells a wide
+                            range of old fashioned sweets as well as balloons and party decorations.</p>
                         <p class="lead" style="padding-left:5em">Main Responsibilities
-                            <br />• Keeping on top of a busy trade by keeping plates and cutlery washed and stocked for
-                            the chefs.
-                            <br />• Operating the cash register and distributing sweets, balloons and party decorations
-                            to customers.
+                            <br />• Keeping on top of a busy trade by keeping plates and cutlery washed and stocked for the chefs.
+                            <br />• Operating the cash register and distributing sweets, balloons and party decorations to customers.
                             <br />• Good communication skills with customers and other staff.</p>
                     </div>
                 </div>
-            </div> <!-- /Murphys -->
+            </div>
+            <!-- /Murphys -->
 
             <hr class="featurette-divider" style="margin: 10px">
 
             <!-- O'Dohertys -->
             <div class="featurette" id="odohertys">
                 <a href="http://www.odav.tv" target="_blank">
-                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/odav_logo.png"
-                        alt="O'Dohertys Logo">
+                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/odav_logo.png" alt="O'Dohertys Logo">
                 </a>
-                <h2 class="featurette-heading">O'Dohertys Audio & Video Productions</h2>
-                <h3><span class="text-muted">VT Manager</span></h3>
-                <h3>July 2007 - August 2013 (6 years, 1 month)</h3>
-                <h3><span class="text-muted">Camera Operator</span></h3>
-                <h3>December 2004 - July 2007 (2 years, 7 months)</h3>
-                <br />
+                <div style="display: inline-block; vertical-align:top;">
+                    <h2 class="featurette-heading">O'Dohertys Audio & Video Productions</h2>
+                    <h3><span class="text-muted">VT Manager</span></h3>
+                    <h3>July 2007 - August 2013 (6 years, 1 month)</h3>
+                    <h3><span class="text-muted">Camera Operator</span></h3>
+                    <h3>December 2004 - July 2007 (2 years, 7 months)</h3>
+                    <br />
+                </div>
+
                 <div class="panel panel-primary">
                     <div class="panel-heading clickable" data-toggle="collapse" href="#collapse-odav">
                         <h3 class="panel-title text-center">Read More about O'Dohertys Audio & Video Productions</h3>
                     </div>
                     <div id="collapse-odav" class="panel-body collapse">
-                        <p class="lead">ODAV are a family owned outside broadcast company specializing in the production
-                            and broadcasting of Irish horse racing. Based in Clondalkin, Dublin 22. O’Doherty’s were the
-                            main televised provider of Irish racing to the racetrack, SIS and At The Races. O’Doherty’s
-                            also provided the public address at Irish racecourses. Alongside with racing, O’Doherty’s
-                            have also done many main events in Ireland including the St Patrick’s Day parade, the
-                            Carroll’s Irish Open Golf, Fianna Fail Ard Fheis, concerts in the National Concert Hall,
-                            Slane and many more.</p>
+                        <p class="lead">ODAV are a family owned outside broadcast company specializing in the production and broadcasting of Irish horse racing. Based in Clondalkin, Dublin 22. O’Doherty’s were the main televised provider of Irish racing to the racetrack,
+                            SIS and At The Races. O’Doherty’s also provided the public address at Irish racecourses. Alongside with racing, O’Doherty’s have also done many main events in Ireland including the St Patrick’s Day parade, the Carroll’s Irish
+                            Open Golf, Fianna Fail Ard Fheis, concerts in the National Concert Hall, Slane and many more.</p>
                         <p class="lead" style="padding-left:5em">Main Responsibilities
-                            <br />• Good communication skills were required working in a team environment and also when
-                            it came to dealing with the clients of the company. Often worked under pressure to meet
-                            demanding deadlines in a tight timeframe and this brought out the best of my problem solving
-                            skills.
-                            <br />• Job entailed travelling all over Ireland on a near-daily basis, and the recording of
-                            live races onto various different media formats. Creatively weaving together visual and
-                            audio materials created during the production process of a horse race, and combining them
-                            with other media, graphics, subtitles, archive footage, etc., to create a variety of final
-                            products for purchase by owners and trainers of the horses involved in races. I digitized
+                            <br />• Good communication skills were required working in a team environment and also when it came to dealing with the clients of the company. Often worked under pressure to meet demanding deadlines in a tight timeframe and
+                            this brought out the best of my problem solving skills.
+                            <br />• Job entailed travelling all over Ireland on a near-daily basis, and the recording of live races onto various different media formats. Creatively weaving together visual and audio materials created during the production
+                            process of a horse race, and combining them with other media, graphics, subtitles, archive footage, etc., to create a variety of final products for purchase by owners and trainers of the horses involved in races. I digitized
                             this media and made copies for future sale and record.
-                            <br />• Often I was required to work in other areas such as vision mixing / directing, sound
-                            engineering or as a camera operator so adaptability and flexibility was an invaluable
-                            attribute.
-                            <br />• Used oscilloscopes and audio meters, reading TV and video signals, and understanding
-                            how they work. I have good knowledge of compression, and I am able to utilize VT Recorders
-                            (VTRs) in normal and abnormal settings. I managed equipment and identified faults, resolving
-                            these faults with appropriate solutions, I fixed things quickly and correctly.
-                            <br />• This job demanded extreme level of work during busy periods, in all type of
-                            locations and weather conditions.</p>
+                            <br />• Often I was required to work in other areas such as vision mixing / directing, sound engineering or as a camera operator so adaptability and flexibility was an invaluable attribute.
+                            <br />• Used oscilloscopes and audio meters, reading TV and video signals, and understanding how they work. I have good knowledge of compression, and I am able to utilize VT Recorders (VTRs) in normal and abnormal settings.
+                            I managed equipment and identified faults, resolving these faults with appropriate solutions, I fixed things quickly and correctly.
+                            <br />• This job demanded extreme level of work during busy periods, in all type of locations and weather conditions.</p>
                     </div>
                 </div>
-            </div> <!-- /O'Dohertys -->
+            </div>
+            <!-- /O'Dohertys -->
 
             <hr class="featurette-divider" style="margin: 10px">
 
             <!-- HRI -->
             <div class="featurette" id="hri">
                 <a href="http://www.hri.ie" target="_blank">
-                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/hri_logo.png"
-                        alt="HRI Logo">
+                    <img class="featurette-image img-responsive pull-left logoImg" src="images/logos/hri_logo.png" alt="HRI Logo">
                 </a>
                 <h2 class="featurette-heading">Horse Racing Ireland</h2>
                 <h3><span class="text-muted">Camera Operator</span></h3>
@@ -320,24 +321,20 @@
                         <h3 class="panel-title text-center">Read More about Horse Racing Ireland</h3>
                     </div>
                     <div id="collapse-hri" class="panel-body collapse">
-                        <p class="lead">Horse Racing Ireland is the national authority for thoroughbred horse racing in
-                            Ireland. The Camera Patrol division used television cameras and equipment to film races from
-                            different angles for exclusive use by the racecourse stewards. These images were to ensure
-                            that the races were run in accordance to racing rules and provided visual evidence for
-                            stewards enquires and appeals.</p>
+                        <p class="lead">Horse Racing Ireland is the national authority for thoroughbred horse racing in Ireland. The Camera Patrol division used television cameras and equipment to film races from different angles for exclusive use by the racecourse stewards.
+                            These images were to ensure that the races were run in accordance to racing rules and provided visual evidence for stewards enquires and appeals.</p>
                         <p class="lead" style="padding-left:5em">Main Responsibilities
-                            <br />• To provide good quality camera work and know the different aspects of the race to
-                            watch for depending on the camera position and role on the day.
+                            <br />• To provide good quality camera work and know the different aspects of the race to watch for depending on the camera position and role on the day.
                             <br />• Job entailed travelling all over Ireland on a near-daily basis.
-                            <br />• Good problem solving ability and willingness to fix issues that arose between races
-                            or with your own equiptment.
-                            <br />• This job demanded extreme level of work during busy periods, in all type of
-                            locations and weather conditions.</p>
+                            <br />• Good problem solving ability and willingness to fix issues that arose between races or with your own equiptment.
+                            <br />• This job demanded extreme level of work during busy periods, in all type of locations and weather conditions.</p>
                     </div>
                 </div>
-            </div> <!-- /HRI -->
+            </div>
+            <!-- /HRI -->
 
-        </div> <!-- /EXPERIENCE -->
+        </div>
+        <!-- /EXPERIENCE -->
 
         <!-- EDUCATION -->
         <div id="education">
@@ -353,8 +350,7 @@
             <!-- ITT -->
             <div class="featurette" id="ITT">
                 <a href="http://www.it-tallaght.ie/" target="_blank">
-                    <img class="featurette-image img-responsive pull-right logoImg"
-                        src="images/logos/it_tallaght_logo.png" alt="IT Tallaght Logo">
+                    <img class="featurette-image img-responsive pull-right logoImg" src="images/logos/it_tallaght_logo.png" alt="IT Tallaght Logo">
                 </a>
                 <h2 class="featurette-heading">IT Tallaght</h2>
                 <h3><span class="text-muted">BSc (Hons) in Computer Science with Software Development</span></h3>
@@ -387,8 +383,10 @@
                         <p class="list-group-item-text">3.54</p>
                     </a>
 
-                </div> <!-- /GPA List Group -->
-            </div> <!-- /ITT -->
+                </div>
+                <!-- /GPA List Group -->
+            </div>
+            <!-- /ITT -->
 
             <!-- <hr class="featurette-divider" style="margin: 10px">
 
@@ -418,7 +416,8 @@
             </div> <!-- /Leaving Cert
         </div> <!-- /CBS Naas -->
 
-        </div> <!-- /EDUCATION -->
+        </div>
+        <!-- /EDUCATION -->
 
         <!-- PROJECTS -->
         <div id="projects">
@@ -436,19 +435,16 @@
                 <img class="featurette-image img-responsive pull-right" src="images/icons/projects.png" alt="Projects">
                 <h2 class="featurette-heading">Projects</h2>
                 <h3><span class="text-muted">College Projects</span></h3>
-                <p class="lead">As part of the course in IT tallaght, a major project was required in every year except
-                    for 1st year. The projects I worked on are linked here.</p>
+                <p class="lead">As part of the course in IT tallaght, a major project was required in every year except for 1st year. The projects I worked on are linked here.</p>
                 <div class="container" id="projectsTable">
                     <div class="imgContainer col-xs-8 col-sm-7 col-md-4 col-lg-3 text-center">
                         <h2>Year 2</h2>
-                        <img src="images/projects/3_ball_strike_1.png" class="clickable" data-toggle="modal"
-                            data-target="#3-ball-strike-modal" />
+                        <img src="images/projects/3_ball_strike_1.png" class="clickable" data-toggle="modal" data-target="#3-ball-strike-modal" />
                         <p class="lead">3 Ball Strike Bowling</p>
                         <a href="https://github.com/PeterBrady84/3BallSplitBowling" target="_blank">
                             <p class="lead">GitHub</p>
                         </a>
-                        <img src="images/projects/pizza_1.png" class="clickable" data-toggle="modal"
-                            data-target="#pizza-modal" />
+                        <img src="images/projects/pizza_1.png" class="clickable" data-toggle="modal" data-target="#pizza-modal" />
                         <p class="lead">Basic Kneads Pizza</p>
                         <a href="https://github.com/PeterBrady84/BasicKneadsPizza" target="_blank">
                             <p class="lead">GitHub</p>
@@ -456,8 +452,7 @@
                     </div>
                     <div class="imgContainer col-xs-8 col-sm-7 col-md-4 col-lg-3 text-center">
                         <h2>Year 3</h2>
-                        <img src="images/projects/epic_search_1.png" class="clickable" data-toggle="modal"
-                            data-target="#epic-search-modal" />
+                        <img src="images/projects/epic_search_1.png" class="clickable" data-toggle="modal" data-target="#epic-search-modal" />
                         <p class="lead">Epic Search Engine</p>
                         <a href="https://github.com/PeterBrady84/EpicSearch" target="_blank">
                             <p class="lead">GitHub</p>
@@ -465,23 +460,24 @@
                     </div>
                     <div class="imgContainer col-xs-8 col-sm-7 col-md-8 col-lg-3 text-center">
                         <h2>Year 4</h2>
-                        <img src="images/projects/fuel_logger_1.png" class="clickable" data-toggle="modal"
-                            data-target="#fuel-logger-modal" />
+                        <img src="images/projects/fuel_logger_1.png" class="clickable" data-toggle="modal" data-target="#fuel-logger-modal" />
                         <p class="lead">Fuel Logger App</p>
                         <a href="https://github.com/PeterBrady84/FuelAndMaintenanceTracker" target="_blank">
                             <p class="lead">GitHub</p>
                         </a>
-                        <img src="images/projects/resume_1.png" class="clickable" data-toggle="modal"
-                            data-target="#resume-modal" />
+                        <img src="images/projects/resume_1.png" class="clickable" data-toggle="modal" data-target="#resume-modal" />
                         <p class="lead">Resume Website</p>
                         <a href="https://github.com/PeterBrady84/ResumeWebsite" target="_blank">
                             <p class="lead">GitHub</p>
                         </a>
                     </div>
-                </div> <!-- /Projects Table -->
-            </div> <!-- /Projects -->
+                </div>
+                <!-- /Projects Table -->
+            </div>
+            <!-- /Projects -->
 
-        </div> <!-- /PROJECTS -->
+        </div>
+        <!-- /PROJECTS -->
 
         <!-- SKILLS -->
         <div id="skills">
@@ -499,10 +495,8 @@
                 <img class="featurette-image img-responsive pull-left" src="images/icons/skills.png" alt="Skills">
                 <h2 class="featurette-heading">IT Skills</h2>
                 <h3><span class="text-muted">My Professional Skills</span></h3>
-                <p class="lead">From my time in education at Institute of Technology, Tallaght I have learned some of
-                    the key IT skills required in the IT industry, I have put these skills to practical use in Continuas
-                    Assessment work and projects that were required from me throughout the 4 year course. I hope to
-                    further build on these skills and learn new ones when I start working in the IT industry.</p>
+                <p class="lead">From my time in education at Institute of Technology, Tallaght I have learned some of the key IT skills required in the IT industry, I have put these skills to practical use in Continuas Assessment work and projects that were required
+                    from me throughout the 4 year course. I hope to further build on these skills and learn new ones when I start working in the IT industry.</p>
                 <br />
                 <div class="panel panel-primary">
                     <div class="panel-heading clickable" data-toggle="collapse" href="#collapse-itskills">
@@ -513,20 +507,19 @@
                             <br />• Confident user of Java, C++ and C#.
                             <br />• Can write SQL queries to intermediate level using Oracle 11G and MYSQL.
                             <br />• Can design and create database schemas.
-                            <br />• Capable of designing developing websites using HTML, CSS, JavaScript, Angular JS and
-                            Twitter Bootstrap.
-                            <br />• Competent user of Windows and Linux Operating Systems in system administration and
-                            command line interfaces.
+                            <br />• Capable of designing developing websites using HTML, CSS, JavaScript, Angular JS and Twitter Bootstrap.
+                            <br />• Competent user of Windows and Linux Operating Systems in system administration and command line interfaces.
                             <br />• Design build and troubleshoot a network using routers, switches and hubs.
                             <br />• Configure a router using the Cisco IOS command set.
                             <br />• Design programs using object orientated systems analysis and design.
-                            <br />• Software quality and testing techniques such as Black and White Box testing and
-                            developing unit tests.</p>
+                            <br />• Software quality and testing techniques such as Black and White Box testing and developing unit tests.</p>
                     </div>
                 </div>
-            </div> <!-- /Skills -->
+            </div>
+            <!-- /Skills -->
 
-        </div> <!-- /SKILLS -->
+        </div>
+        <!-- /SKILLS -->
 
         <!-- ACHIEVEMENTS -->
         <div id="achievements">
@@ -541,8 +534,7 @@
 
             <!-- Achievements -->
             <div class="featurette" id="myAchievements">
-                <img class="featurette-image img-responsive pull-right" src="images/icons/achievements.png"
-                    alt="Achievements">
+                <img class="featurette-image img-responsive pull-right" src="images/icons/achievements.png" alt="Achievements">
                 <h2 class="featurette-heading">Personal Achievements</h2>
                 <br />
                 <h3><span class="text-muted">Professional</span></h3>
@@ -556,8 +548,7 @@
                             <br />• Student prefect in 6th year while a student at Naas C.B.S.
                             <br />• Promotion to head of VT department in ODAV in 2008.
                             <br />• Established good working relationships with customers / clients.
-                            <br />• Developed and implemented new concepts for archiving the major race meetings onto
-                            broadcast formats over DVD.</p>
+                            <br />• Developed and implemented new concepts for archiving the major race meetings onto broadcast formats over DVD.</p>
                     </div>
                 </div>
                 <h3><span class="text-muted">Sporting</span></h3>
@@ -569,13 +560,14 @@
                     <div id="collapse-sporting" class="panel-body collapse">
                         <p class="lead" style="padding-left:5em">Sporting Achievements
                             <br />• Wicklow GAA under 16 league winner medal.
-                            <br />• Keen follower of many sports including rugby, football, Formula One, darts and
-                            tennis
+                            <br />• Keen follower of many sports including rugby, football, Formula One, darts and tennis
                     </div>
                 </div>
-            </div> <!-- /Achievements -->
+            </div>
+            <!-- /Achievements -->
 
-        </div> <!-- /ACHIEVEMENTS -->
+        </div>
+        <!-- /ACHIEVEMENTS -->
 
         <!-- REFERENCES -->
         <div id="references">
@@ -590,8 +582,7 @@
 
             <!-- References -->
             <div class="featurette" id="myreferences">
-                <img class="featurette-image img-responsive pull-left" src="images/icons/references.png"
-                    alt="References">
+                <img class="featurette-image img-responsive pull-left" src="images/icons/references.png" alt="References">
                 <h2 class="featurette-heading">References</h2>
                 <h3><span class="text-muted">Professional Contacts</span></h3>
                 <p class="lead">Written references and further references are available upon request.</p>
@@ -610,18 +601,20 @@
                                 </p>
                             </div>
                             <div class="col-md-6">
-                                <p class="lead"><strong>Paul Johnston</strong>
-                                    <br />Director.
-                                    <br />O’Doherty’s Audio & Video Productions Ltd.
-                                    <br />Phone: 086-2567912
+                                <p class="lead"><strong>Peter Moran</strong>
+                                    <br />Development Director.
+                                    <br />Equisoft DAC, Newbridge
+                                    <br />Phone: 045-431680
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- /References -->
+            </div>
+            <!-- /References -->
 
-        </div> <!-- /REFERENCES -->
+        </div>
+        <!-- /REFERENCES -->
 
         <!-- CV DOWNLOAD -->
         <div id="cv">
@@ -653,9 +646,11 @@
                         </a>
                     </div>
                 </div>
-            </div> <!-- /CV -->
+            </div>
+            <!-- /CV -->
 
-        </div> <!-- /CV DOWNLOAD -->
+        </div>
+        <!-- /CV DOWNLOAD -->
 
         <hr class="featurette-divider" style="margin-top: 10px">
 
@@ -673,13 +668,15 @@
         <footer>
             <p>
                 Copyright &copy; Peter Brady
-                <script>document.write(new Date().getFullYear());</script> &middot; <a
-                    href="https://www.linkedin.com/in/peter-brady-14036891/" target="_blank">LinkedIn</a> &middot; <a
-                    href="https://github.com/PeterBrady84" target="_blank">Github</a>
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> &middot; <a href="https://www.linkedin.com/in/peter-brady-14036891/" target="_blank">LinkedIn</a> &middot; <a href="https://github.com/PeterBrady84" target="_blank">Github</a>
             </p>
-        </footer> <!-- /FOOTER -->
+        </footer>
+        <!-- /FOOTER -->
 
-    </div><!-- /container -->
+    </div>
+    <!-- /container -->
 
     <!-- Contact Modal -->
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -712,8 +709,7 @@
                         </address>
                     </div>
                     <div style="float:right;">
-                        <img class="featurette-image img-responsive pull-right resize"
-                            src="images/icons/self_portrait.png" alt="Self Portrait">
+                        <img class="featurette-image img-responsive pull-right resize" src="images/icons/self_portrait.png" alt="Self Portrait">
                     </div>
 
 
@@ -722,48 +718,46 @@
                         <div class="row">
 
                             <!-- Form itself -->
-                            <form name="sentMessage" class="well" id="contactForm" novalidate
-                                action="https://formspree.io/peterbrady1984@gmail.com" method="POST">
+                            <form name="sentMessage" class="well" id="contactForm" novalidate action="https://formspree.io/peterbrady1984@gmail.com" method="POST">
                                 <div class="control-group">
                                     <div class="controls">
-                                        <input class="form-control" name="Name" placeholder="Full Name" id="name"
-                                            required data-validation-required-message="Please enter your name" />
+                                        <input class="form-control" name="Name" placeholder="Full Name" id="name" required data-validation-required-message="Please enter your name" />
                                         <p class="help-block"></p>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="controls">
-                                        <input type="email" class="form-control" placeholder="Email" id="email" required
-                                            name="Email" data-validation-required-message="Please enter your email" />
+                                        <input type="email" class="form-control" placeholder="Email" id="email" required name="Email" data-validation-required-message="Please enter your email" />
                                     </div>
                                 </div>
                                 <br />
 
                                 <div class="control-group">
                                     <div class="controls">
-                                        <textarea rows="10" cols="100" class="form-control" placeholder="Message"
-                                            id="message" required name="Message"
-                                            data-validation-required-message="Please enter your message" minlength="5"
-                                            data-validation-minlength-message="Min 5 characters" maxlength="999"
+                                        <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required name="Message" data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999"
                                             style="resize:none"></textarea>
                                     </div>
                                 </div>
-                                <div id="success"></div> <!-- For success/fail messages  -->
+                                <div id="success"></div>
+                                <!-- For success/fail messages  -->
                                 <button class="btn btn-primary pull-right">Send
                                 </button>
-                                <button class="btn btn-primary pull-right" data-dismiss="modal"
-                                    style="margin-right: 20px">Cancel
+                                <button class="btn btn-primary pull-right" data-dismiss="modal" style="margin-right: 20px">Cancel
                                 </button>
                                 <br />
                             </form>
                         </div>
                     </div>
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
 
         <!-- End Contact Modal -->
-    </div><!-- /.modal -->
+    </div>
+    <!-- /.modal -->
     <!-- End Contact Modal -->
 
     <!-- GPA Year 1 -->
@@ -834,10 +828,14 @@
                     </div>
                     <br />
 
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- GPA Year 2 -->
@@ -908,10 +906,14 @@
                     </div>
                     <br />
 
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- GPA Year 3 -->
@@ -966,10 +968,14 @@
                     </div>
                     <br />
 
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- GPA Year 4 -->
@@ -1032,10 +1038,14 @@
                     </div>
                     <br />
 
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- Leaving Cert Results -->
@@ -1095,10 +1105,14 @@
                         </div>
                     </div>
                     <br />
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- 3 Ball Strike Bowling Modal -->
@@ -1148,10 +1162,14 @@
                         <li data-target="#carousel-3-ball-strike" data-slide-to="4"></li>
                         <li data-target="#carousel-3-ball-strike" data-slide-to="5"></li>
                     </ol>
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- Basic Kneads Pizza Modal -->
@@ -1197,10 +1215,14 @@
                         <li data-target="#carousel-pizza" data-slide-to="3"></li>
                         <li data-target="#carousel-pizza" data-slide-to="4"></li>
                     </ol>
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- Epic Search Modal -->
@@ -1246,10 +1268,14 @@
                         <li data-target="#carousel-epic-search" data-slide-to="3"></li>
                         <li data-target="#carousel-epic-search" data-slide-to="4"></li>
                     </ol>
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- Fuel Logger Modal -->
@@ -1291,10 +1317,14 @@
                         <li data-target="#carousel-fuel-logger" data-slide-to="2"></li>
                         <li data-target="#carousel-fuel-logger" data-slide-to="3"></li>
                     </ol>
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- Fuel Logger Modal -->
@@ -1340,10 +1370,14 @@
                         <li data-target="#carousel-resume" data-slide-to="3"></li>
                         <li data-target="#carousel-resume" data-slide-to="4"></li>
                     </ol>
-                </div> <!-- modal body -->
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                </div>
+                <!-- modal body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
     <!-- End Modal -->
 
     <!-- AngularJS -->
@@ -1358,10 +1392,10 @@
 
     <!-- Smooth Scrolling -->
     <script>
-        $(function () {
-            $('a[href*=#]:not([href=#]):not([href=#carousel-3-ball-strike]):not([href=#carousel-pizza]):not([href=#carousel-epic-search]):not([href=#carousel-fuel-logger]):not([href=#carousel-resume])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                    || location.hostname == this.hostname) {
+        $(function() {
+            $('a[href*=#]:not([href=#]):not([href=#carousel-3-ball-strike]):not([href=#carousel-pizza]):not([href=#carousel-epic-search]):not([href=#carousel-fuel-logger]):not([href=#carousel-resume])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+                    location.hostname == this.hostname) {
 
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');

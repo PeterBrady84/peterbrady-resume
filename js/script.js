@@ -1,8 +1,8 @@
 /*========== Auto update employment duration ==========*/
 function calcDate() {
     today = new Date()
-    // Start date in current employment
-    past = new Date(2019, 01, 01) // remember this is equivalent to 01 02 2017
+        // Start date in current employment
+    past = new Date(2020, 00, 01) // remember this is equivalent to 01 01 2020 - Format yyy, mm, dd
     var diff = Math.floor(today.getTime() - past.getTime());
     var day = 1000 * 60 * 60 * 24;
 
@@ -13,31 +13,23 @@ function calcDate() {
     var message
     if (years == 0 && months == 0) {
         message = "(Less than a month)"
-    }
-    else if (years == 0 && months == 1) {
+    } else if (years == 0 && months == 1) {
         message = "(" + months + " month)"
-    }
-    else if(years == 0 && months > 1) {
+    } else if (years == 0 && months > 1) {
         message = "(" + months + " months)"
-    }
-    else if (years == 1 && months == 0) {
+    } else if (years == 1 && months == 0) {
         message = "(" + years + " year)"
-    }
-    else if (years == 1 && months == 1) {
+    } else if (years == 1 && months == 1) {
         message = "(" + years + " year, " + months + " month)"
-    }
-    else if (years == 1 && months > 1) {
+    } else if (years == 1 && months > 1) {
         message = "(" + years + " year, " + months + " months)"
-    }
-    else if (years > 1 && months == 0) {
+    } else if (years > 1 && months == 0) {
         message = "(" + years + " years)"
-    }
-    else if (years > 1 && months == 1) {
+    } else if (years > 1 && months == 1) {
         message = "(" + years + " years, " + months + " month)"
-    }
-    else if (years > 1 && months > 1) {
+    } else if (years > 1 && months > 1) {
         message = "(" + years + " years, " + months + " months)"
     }
 
     return message;
-    }
+}
