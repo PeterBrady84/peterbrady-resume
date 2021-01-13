@@ -2,7 +2,7 @@
 function calcDate() {
     today = new Date()
         // Start date in current employment
-    past = new Date(2020, 00, 01) // remember this is equivalent to 01 01 2020 - Format yyyy, mm, dd
+    past = new Date(2020, 05, 30) // remember this is equivalent to 01 01 2020 - Format yyyy, mm, dd
     var diff = Math.floor(today.getTime() - past.getTime());
     var day = 1000 * 60 * 60 * 24;
 
